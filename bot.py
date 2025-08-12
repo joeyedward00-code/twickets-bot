@@ -9,13 +9,13 @@ import sys
 
 parser = argparse.ArgumentParser(prog="twicket-get", description="Snag yer tickets.")
 parser.add_argument(
-    "-u", "--user", help="The username used for Twickets", required=True
+    "-u", "--user", help="joeyedward00@gmail.com", required=True
 )
 parser.add_argument(
-    "-p", "--password", help="The password used for Twickets", required=True
+    "-p", "--password", help="Latics123", required=True
 )
 parser.add_argument(
-    "-e", "--event-id", help="Unique identifier for Twickets event", required=True
+    "-e", "--event-id", help="183969165667730227", required=True
 )
 parser.add_argument(
     "-t",
